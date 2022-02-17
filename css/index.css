@@ -38,6 +38,6 @@ a::before {
     transition: transform 200ms linear;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
 }
