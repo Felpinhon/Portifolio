@@ -1,16 +1,16 @@
-.section {
+.main-section {
     background-color: #08129C;
     border-bottom: 10px solid #0DBD10;
     padding-top: 50px;
     padding-bottom: 100px; 
 }
 
-.section.-second {
+.main-section.-second {
     display: block;
     background-color: #000;
     border-bottom: 10px solid #08129C;
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 70px;
 }
