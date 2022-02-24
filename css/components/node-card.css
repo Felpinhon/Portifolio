@@ -35,6 +35,10 @@
     background-color: #1000ff4d;
 }
 
+.node-card.-clean .logo {
+    padding: 0;
+}
+
 .node-card .morvan {
     width: 175px;
     height: 100px;
@@ -47,5 +51,5 @@
 
 .node-card .faetec {
     width: 175px;
-    height: 125px;
+    height: 142px;
 }
