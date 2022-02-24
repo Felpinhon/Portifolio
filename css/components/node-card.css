@@ -1,0 +1,51 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 1.3px dashed #000;
+    transform: rotate(90deg) translateX(-62%);
+    transform-origin: bottom center;
+    bottom: 140px;
+    z-index: 1;
+}
+
+.node-card .title{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: #08129C;
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1000ff4d;
+}
+
+.node-card .morvan {
+    width: 175px;
+    height: 100px;
+}
+
+.node-card .ciep {
+    width: 175px;
+    height: 100px;
+}
+
+.node-card .faetec {
+    width: 175px;
+    height: 125px;
+}
