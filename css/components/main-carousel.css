@@ -29,17 +29,17 @@
 }
 
 .main-carousel .button-arrow {
-    position: absolute;
+    margin-top: 100px;
     bottom: 70px;
     transform: translateY(50%);
 }
 
 .main-carousel .button-arrow.-left {
-    left: 15px;
+    margin-left: 15px;
 }
 
 .main-carousel .button-arrow.-right {
-    right: 15px;
+    margin-right: 15px;
 }
 
 .main-carousel .items {
