@@ -16,6 +16,11 @@
     border-bottom: 10px solid #000;
 }
 
+.main-section.-fourth {
+    background-color: #595959;
+    border: none;
+}
+
 .main-section .main-title {
     margin-bottom: 70px;
 }
