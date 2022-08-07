@@ -41,15 +41,20 @@
 
 .node-card .morvan {
     width: 175px;
-    height: 100px;
+    height: 142px;
 }
 
 .node-card .ciep {
     width: 175px;
-    height: 100px;
+    height: 142px;
 }
 
 .node-card .faetec {
+    width: 175px;
+    height: 142px;
+}
+
+.node-card .speedTreinamentos {
     width: 175px;
     height: 142px;
 }
