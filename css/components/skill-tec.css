@@ -19,3 +19,7 @@
 .skill-tec .title {
     margin-bottom: 10px;
 }
+
+.skill-tec #java {
+    border: 5px solid #000;
+}
