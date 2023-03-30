@@ -50,19 +50,19 @@
 }
 
 #radio1:checked ~.first {
-    transform: translateX(0);
+    margin-left: 0;
 }
 
 #radio2:checked ~.first {
-    margin: -12.5%;
+    margin-left: -25%;
 }
 
 #radio3:checked ~.first {
-    margin: -25%;
+    margin-left: -50%;
 }
 
 #radio4:checked ~.first {
-    margin: -38%;
+    margin-left: -75%;
 }
 
 .navigation-auto div {
