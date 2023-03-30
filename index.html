@@ -24,9 +24,7 @@
         <link rel="stylesheet" href="css/components/progress-bar.css">
         <link rel="stylesheet" href="css/components/wrapper-card.css">
         <link rel="stylesheet" href="css/components/card-project.css">
-        <link rel="stylesheet" href="css/components/main-carousel.css">
-        <link rel="stylesheet" href="css/components/button-arrow.css">
-        <link rel="stylesheet" href="css/components/node-card.css">
+        <link rel="stylesheet" href="css/components/main-slider.css">
         <link rel="stylesheet" href="css/components/main-description.css">
         <link rel="stylesheet" href="css/components/main-form.css">
         <link rel="stylesheet" href="css/components/main-lable.css">
@@ -112,42 +110,46 @@
         <section class="main-section -third" id="sobre">
             <h2 class="main-title -second">Sobre</h2>
             
-            <section class="main-carousel">
-                <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <div class="main-slider">
+                
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
 
-                <div class="items">
-                    <div class="elements">
-                        <figure class="node-card -clean">
-                            <figcaption class="title">2009</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/logo_morvan.png" alt="Logo da Morvan" class="morvan">
-                            </div>
-                        </figure>
+                    <div class="slide first">
+                        <img src="assets/img/logo_morvan.png" alt="Logo da Morvan" id="img1">
+                    </div>
 
-                        <figure class="node-card -clean">
-                            <figcaption class="title">2017</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/logo_ciepCda.jpg" alt="Foto do CIEP CDA" class="ciep">
-                            </div>
-                        </figure>
+                    <div class="slide">
+                        <img src="assets/img/logo_ciep.jpg" alt="Logo do CIEP">
+                    </div>
 
-                        <figure class="node-card -clean">
-                            <figcaption class="title">2020</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/logo_faetecRepublic.png" alt="Logo da FAETEC República" class="faetec">
-                            </div>
-                        </figure>
-                        <figure class="node-card -clean">
-                            <figcaption class="title">2022</figcaption>
-                            <div class="logo">
-                                <img src="assets/img/ico_speedTreinamentos.jpg" alt="Logo da Speed Treinamentos" class="speedTreinamentos">
-                            </div>
-                        </figure>
+                    <div class="slide">
+                        <img src="assets/img/logo_faetecRepublic.png" alt="Logo da FAETEC">
+                    </div>
+
+                    <div class="slide">
+                        <img src="assets/img/logo_speedTreinamentos.jpg" alt="Logo da SpeedTreinamentos">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
                     </div>
                 </div>
 
-                <button class="button-arrow -right"><span class="content">Voltar</span></button>
-            </section>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div>
 
             <p class="main-description">
                 Hoje, técnico em informática e gestão empresarial. Luis tem 18 anos, concluiu o Fundamental I na Escola Municipal Morvan de Figueiredo, o Fundamental II no CIEP Carlos Drummond de Andrade e o Ensino Médio na E.T.E República, cursando informática. Também concluiu um curso de Gestão Empresarial na SpeedTreinamentos.
@@ -182,6 +184,6 @@
             </a>
         </footer>
 
-        <script src="js/components/main-carousel.js"></script>
+        <script src="js/components/main-slider.js"></script>
     </body>
 </html>
