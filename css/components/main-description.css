@@ -8,3 +8,10 @@
     margin-left: 80px;
     margin-right: 80px;
 }
+
+.main-description.-agradecimento {
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 0px #000;
+}

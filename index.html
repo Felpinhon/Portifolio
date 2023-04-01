@@ -10,7 +10,6 @@
         <link rel="shortcut icon" href="assets/img/Avatar_Portifólio.jfif" type="image/x-icon">
 
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/components/main-header.css">
         <link rel="stylesheet" href="css/components/main-banner.css">
         <link rel="stylesheet" href="css/components/main-action.css">
@@ -30,6 +29,7 @@
         <link rel="stylesheet" href="css/components/main-lable.css">
         <link rel="stylesheet" href="css/components/main-input.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="email-enviado.html">
     </head>
     
     <body>
@@ -163,17 +163,20 @@
         </section>
 
         <section class="main-section -fourth" id="contatos">
-            <form class="main-form">
+            <form class="main-form" action="https://formsubmit.co/lfelipe.lf990@gmail.com" method="POST">
+
+                <input type="hidden" name="_next" value="https://felpinhon.github.io/Portifolio/email-enviado.html">
+
                 <legend class="main-title -second">Contatos</legend>
 
                 <label class="main-lable" for="name">Nome</label>
-                <input class="main-input" id="name" type="text" required>
+                <input class="main-input" name="name" id="name" type="text" required>
 
                 <label class="main-lable" for="email">Email</label>
-                <input class="main-input" id="email" type="email" required>
+                <input class="main-input" name="email" id="email" type="email" required>
 
                 <label class="main-lable" for="message">Mensagem</lable>
-                <textarea class="main-input -textarea" id="message" required></textarea>
+                <textarea class="main-input -textarea" name="message" id="message" required></textarea>
 
                 <button class="main-button -full" type="submit">Enviar</button>
             </form>
